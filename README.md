@@ -1,18 +1,21 @@
+
 ### Dominik-CMS
 
-Projekt miał na celu stworzenie prostego systemu zarządzania treścią dla bloga podróżniczego
+***
 
-Włączając aplikację mamy panel, w którym możemy dodać post do bloga, następnie możemy do pojedyńczego posta dodać tekst, zdjęcia, tytuł i inne potrzebne informacje
+Aby uruchomić aplikację w systemie Windows, wystarczy kliknąć na plik .exe. Aplikacja została napisana w Windows Forms (framework jest dość przestarzały, ale moim zdaniem jest najlepszy do nauki .Net C# i tworzenia aplikacji przeznaczonych do własnego użytku).
 
-Możemy też edytować i usuwaać wszystko w ramach jednego wpisu, który tworzymy
+***
+Projekt miał na celu stworzenie prostego systemu zarządzania treścią dla bloga podróżniczego.
 
-Następnie post, który utworzyliśmy został dodawany do pliku.json, (liczba postów jest w pliku index.html), by cały folder przy pomocy skryptu wrzucić na github-pages i je jako proste api dla strony bloga
+Po uruchomieniu aplikacji pojawia się panel, w którym możemy dodać post do bloga. Następnie, do pojedynczego posta możemy dodać tekst, zdjęcia, tytuł i inne potrzebne informacje.
 
-Niestety edytowanie i usuwanie całych, już ukończonych postów nie zostało zrealizowane
+Możemy również edytować i usuwać wszystko w ramach jednego wpisu, który tworzymy.
 
-Projekt nie został dokończony, ponieważ doszliśmy do wniosku, że blog będzie hostowany jednak na wordpressie :(
+Następnie, utworzony post jest dodawany do pliku .json (liczba postów jest w pliku index.html), aby cały folder przy pomocy skryptu wrzucić na github-pages i używać go jako proste api dla strony bloga.
 
-Plusem projektu miała być niska cena prowadzenia aplikacji i pełna kontrola nad projektem, bo w razie problemów wystarzczy dwoma kliknięciami usunąć plik i włączyć skrypt
+Niestety, edytowanie i usuwanie całych, już ukończonych postów nie zostało zrealizowane.
 
+Projekt nie został dokończony, ponieważ doszliśmy do wniosku, że blog będzie jednak hostowany na WordPressie :(
 
-By włączyć aplikacjię w Windows, wystarczy kliknąć w plik .exe, aplikacja napisana w Windows Forms (Framework dość przestarzały, ale moim zdaniem najlepszy do nauki .Net C# i tworzenia aplikacji przeznaczonych do własnego uzytku)
+Atutem projektu miała być niska cena prowadzenia aplikacji i pełna kontrola nad projektem, ponieważ w razie problemów wystarczy dwukrotnie kliknąć, aby usunąć plik i uruchomić skrypt.
